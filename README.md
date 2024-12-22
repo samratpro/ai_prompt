@@ -5,6 +5,12 @@ title_prompt = '''Write an SEO title about this keyword within 55 characters. Th
 keyword: <<keyword>>
 '''
 ```
+### 02. introduction_prompt
+```py
+introduction_prompt = '''Write a compelling blog post introduction about the keyword: <<keyword>>
+The introduction should begin with technical terms related to the topic, avoiding casual phrases like "Are you...". The keyword should be naturally included throughout the introduction. Do not provide a direct solution in the intro. The final sentence should intrigue readers to continue reading the full article. Aim for a length of approximately 120 words. '''
+```
+### 03. outline_prompt
 ```py
 outline_prompt = '''
 Generate an outline for an article that can cover all relevant topics on the keyword: <<keyword>>
@@ -31,11 +37,7 @@ The outline should have the following format, between 8 to12, H2 section:
 .........
 '''
 ```
-### 03. introduction_prompt
-```py
-introduction_prompt = '''Write a compelling blog post introduction about the keyword: <<keyword>>
-The introduction should begin with technical terms related to the topic, avoiding casual phrases like "Are you...". The keyword should be naturally included throughout the introduction. Do not provide a direct solution in the intro. The final sentence should intrigue readers to continue reading the full article. Aim for a length of approximately 120 words.
-```
+
 ### 04. paragraph_prompt
 ```py
 paragraph_prompt = '''Write this section for the mentioned paragraph heading within 120 words so that it is useful for the reader, in an interesting and organized way like human writing. Each output sentence will be short, meaningful and native.
