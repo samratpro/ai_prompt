@@ -63,3 +63,16 @@ Must include keyword in output
 and length approx. 20 words
 '''
 ```
+### 07. Single Prompt
+```
+            Write a content body without title base on this keyword : ((keyword))
+            rules:
+                - 700 words
+                - Don't need title or h1, only content body needs
+                - markdown with html tag
+                - only gives paragraph and h2 heading
+                - Don't give ```html start or end of output
+                - Avoid any unnecessary topic that actually no directly helpful for audience
+                - Focus on technical side rather than informational part
+                - Write way like an expert writer on this topic
+```
