@@ -101,8 +101,7 @@ Write a buying guide paragraph explaining why it is important to consider Connec
    - The exact words: **"Connectivity" and "Expansion"**  
 3. **Start directly with an informative fact** instead of general advice.  
 4. **Maintain a structured format** covering all given topics.  
-5. **Add `<p>`, `<strong>`, `<ul>`, and `<table>` tags** to enhance readability.  
-6. Omit ```html``` label
+5. Enhance readability with <p>, <strong>, <ul>, and <table> tags where appropriate. Use a <table> only when presenting structured comparisons, multiple data rows, pros vs. cons, or one topic vs. another. Avoid adding tables for simple lists or single-topic explanations.
 
 **Details:**  
 - **Keyword (for reference only, do not include in the output):** ((keyword))
@@ -118,7 +117,8 @@ Write 5 related questions on this topic
 ```
 ## FAQ Ans
 ```
-Write a short answer to this question within 2 sentence ((question))
+Instruction: Answer the following question concisely in exactly two sentences without introductory phrases like “Here is your answer” or “Regarding your question.” Provide a direct and informative response.
+Question: ((question))
 ```
 ## Conclusion
 ```
